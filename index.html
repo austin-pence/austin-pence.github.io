@@ -20,7 +20,7 @@
     <div class="container nav-wrap">
       <a class="wordmark" href="#top" aria-label="Austin Pence — home"><span class="wordmark-icon">AP<span>.</span></span><span class="wordmark-name">Austin Pence</span></a>
       <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span></button>
-      <nav id="site-nav" class="site-nav" aria-label="Primary navigation"><a href="#work">Projects</a><a href="#about">About</a><a href="#skills">Skills</a><a href="resume.html">Resume</a><a href="#contact" class="nav-contact">Contact <span aria-hidden="true">↗</span></a></nav>
+      <nav id="site-nav" class="site-nav" aria-label="Primary navigation"><a href="#work">Projects</a><a href="#about">About</a><a href="#skills">Skills</a><a href="resume.html">Resume</a><a href="#contact" class="nav-contact">Contact</a></nav>
     </div>
   </header>
   <main id="main">
@@ -30,21 +30,12 @@
           <p class="eyebrow eyebrow-light"><span class="dot"></span> BYU INFORMATION SYSTEMS STUDENT</p>
           <h1 id="hero-title">I like working with people and building <em>things that help.</em></h1>
           <p class="hero-description">Hey, I'm Austin! I'm studying Information Systems at BYU. I like trying new technology, working with a good team, and figuring out how to make everyday things easier.</p>
-          <div class="hero-buttons"><a class="button button-cream" href="#work">See my projects <span aria-hidden="true">↗</span></a><a class="text-link light-link" href="resume.html">View my resume <span aria-hidden="true">↗</span></a></div>
+          <div class="hero-buttons"><a class="button button-cream" href="#work">See my projects</a><a class="text-link light-link" href="resume.html">View my resume</a></div>
           <div class="hero-caption"><span class="caption-rule"></span> BYU · INFORMATION SYSTEMS · CLASS OF 2028</div>
         </div>
-        <div class="hero-art" aria-label="Illustration of connecting ideas, people, and technology" role="img">
-          <div class="art-loop art-loop-one"></div><div class="art-loop art-loop-two"></div>
-          <div class="art-grid"></div>
-          <div class="art-center"><span class="art-spark">✳</span><span class="art-center-label">learn.<br>build.<br>repeat.</span></div>
-          <div class="art-note art-note-one"><span class="mini-symbol">◎</span> listen first</div>
-          <div class="art-note art-note-two"><span class="mini-symbol">↗</span> try something new</div>
-          <div class="art-note art-note-three"><span class="mini-symbol">✦</span> make it better</div>
-          <span class="tiny-plus plus-one">+</span><span class="tiny-plus plus-two">+</span>
-          <span class="art-bottom">STILL LEARNING, ALWAYS BUILDING</span>
-        </div>
+        <div class="hero-art hero-simple" aria-hidden="true"><div class="hero-simple-inner"><p class="hero-simple-eyebrow">WHAT I'M INTO</p><p class="hero-simple-headline">Working with people.<br>Trying new ideas.<br><em>Building useful things.</em></p><p class="hero-simple-bottom">AUSTIN PENCE / BYU INFORMATION SYSTEMS</p></div></div>
       </div>
-      <div class="hero-marquee" aria-hidden="true"><div class="container marquee-text">BYU INFORMATION SYSTEMS <span>✳</span> WEB PROJECTS <span>✳</span> AI EXPERIMENTS <span>✳</span> TEAM LEADERSHIP</div></div>
+      <div class="hero-marquee" aria-hidden="true"><div class="container marquee-text">BYU INFORMATION SYSTEMS <span>·</span> WEB PROJECTS <span>·</span> AI EXPERIMENTS <span>·</span> TEAM LEADERSHIP</div></div>
     </section>
 
     <section class="section work-section" id="work" aria-labelledby="work-title">
@@ -53,30 +44,54 @@
         <div class="filter-list" role="group" aria-label="Filter projects"><button class="filter-chip active" data-filter="all" type="button" aria-pressed="true">Everything</button><button class="filter-chip" data-filter="product" type="button" aria-pressed="false">Web & design</button><button class="filter-chip" data-filter="engineering" type="button" aria-pressed="false">AI & engineering</button><button class="filter-chip" data-filter="leadership" type="button" aria-pressed="false">Leadership</button></div>
         <div class="project-grid">
           <article class="project-card" data-category="product">
-            <div class="project-visual visual-events"><div class="mini-browser events-window"><div class="browser-top"><div class="traffic"><i></i><i></i><i></i></div><span>Campus events / Discover</span><b>↗</b></div><div class="events-content"><div class="events-heading">What's happening<br><strong>around campus?</strong></div><div class="events-search">⌕ &nbsp; Search campus events <span>⌘ K</span></div><div class="events-cards"><div class="fake-event"><span class="fake-date">OCT<br><b>14</b></span><span><b>Discover events</b><small>Find what's happening</small></span></div><div class="fake-event"><span class="fake-date">OCT<br><b>16</b></span><span><b>Save your favorites</b><small>Keep plans together</small></span></div></div></div></div><span class="visual-label">CONCEPT ILLUSTRATION</span></div>
-            <div class="project-info"><div class="project-meta"><span>PRODUCT DESIGN · UX RESEARCH</span><span>01</span></div><h3>BYU Calendar</h3><p>My team worked on making campus events easier to find, starting with interviews, sketches, and prototypes.</p><div class="project-bottom"><div class="tag-row"><span>Research</span><span>Prototyping</span><span>Live site</span></div><a class="project-live" href="https://byucalendar.com/" target="_blank" rel="noopener noreferrer">Visit live site ↗</a><a class="circle-link" href="projects/byu-events.html" aria-label="Read BYU Calendar project details">↗</a></div></div>
+            <a class="project-visual screenshot-visual visual-events" href="https://byucalendar.com/" target="_blank" rel="noopener noreferrer" aria-label="Open BYU Calendar website"><span class="screenshot-fallback">Preview of BYU Calendar</span><img class="site-screenshot" src="https://image.thum.io/get/width/1200/crop/800/maxAge/72/https://byucalendar.com/" alt="Screenshot of the BYU Calendar website" loading="lazy" referrerpolicy="no-referrer"><span class="screenshot-label">BYUCALENDAR.COM</span></a>
+            <div class="project-info">
+              <div class="project-meta"><span>WEB DESIGN · USER RESEARCH</span><span>01</span></div>
+              <h3>BYU Calendar</h3>
+              <p>Our team wanted to make campus events easier to find. I helped with interviews, feature planning, and prototypes.</p>
+              <div class="tag-row"><span>User research</span><span>Design</span><span>Team project</span></div>
+              <div class="project-actions"><a class="visit-site-button" href="https://byucalendar.com/" target="_blank" rel="noopener noreferrer">Visit live website</a><a class="project-details-link" href="projects/byu-events.html">Read about the project</a></div>
+            </div>
           </article>
           <article class="project-card" data-category="product engineering">
-            <div class="project-visual visual-launchpad"><div class="mini-browser launchpad-window"><div class="browser-top"><div class="traffic"><i></i><i></i><i></i></div><span>IS Career Launchpad</span><b>↗</b></div><div class="launchpad-content"><div class="tiny-overline">FIND YOUR DIRECTION</div><div class="launchpad-heading">Explore what<br><strong>comes next.</strong></div><div class="launchpad-tiles"><div><span class="tile-icon">⌁</span><b>Fit Finder</b><small>Explore strengths</small></div><div><span class="tile-icon">◈</span><b>Career Tracks</b><small>Discover paths</small></div><div><span class="tile-icon">◌</span><b>Mock Interviews</b><small>Practice & grow</small></div></div></div></div><span class="visual-label">CONCEPT ILLUSTRATION</span></div>
-            <div class="project-info"><div class="project-meta"><span>AI-ASSISTED DEVELOPMENT · WEB</span><span>02</span></div><h3>IS Career Launchpad</h3><p>We built a career exploration site with AI tools. I helped brainstorm features and put together parts of the interface.</p><div class="project-bottom"><div class="tag-row"><span>Brainstorming</span><span>AI tools</span><span>UI</span></div><a class="project-live" href="https://jarin.dev/static/projects/career-launchpad/index.html" target="_blank" rel="noopener noreferrer">Visit live site ↗</a><a class="circle-link" href="projects/career-launchpad.html" aria-label="Read Career Launchpad case study">↗</a></div></div>
+            <a class="project-visual screenshot-visual visual-launchpad" href="https://jarin.dev/static/projects/career-launchpad/index.html" target="_blank" rel="noopener noreferrer" aria-label="Open IS Career Launchpad website"><span class="screenshot-fallback">Preview of IS Career Launchpad</span><img class="site-screenshot" src="https://image.thum.io/get/width/1200/crop/800/maxAge/72/https://jarin.dev/static/projects/career-launchpad/index.html" alt="Screenshot of the IS Career Launchpad website" loading="lazy" referrerpolicy="no-referrer"><span class="screenshot-label">CAREER LAUNCHPAD</span></a>
+            <div class="project-info">
+              <div class="project-meta"><span>WEBSITE · AI-ASSISTED DEVELOPMENT</span><span>02</span></div>
+              <h3>IS Career Launchpad</h3>
+              <p>I helped brainstorm this career exploration site, use AI tools to build it, and work on some of its buttons.</p>
+              <div class="tag-row"><span>Brainstorming</span><span>AI tools</span><span>Web development</span></div>
+              <div class="project-actions"><a class="visit-site-button" href="https://jarin.dev/static/projects/career-launchpad/index.html" target="_blank" rel="noopener noreferrer">Visit live website</a><a class="project-details-link" href="projects/career-launchpad.html">Read about the project</a></div>
+            </div>
           </article>
           <article class="project-card" data-category="engineering">
-            <div class="project-visual visual-chatbot"><div class="chat-window"><div class="chat-top"><span class="chat-icon">✳</span><span><b>Local AI assistant</b><small>Ollama + FastAPI</small></span><span class="status-pill">LOCAL</span></div><div class="chat-body"><div class="chat-bubble user-bubble">Can you help me work through an idea?</div><div class="chat-bubble bot-bubble"><span class="spark-small">✳</span> Absolutely. Let's break it into smaller steps.</div><div class="chat-input">Ask a question <span>↗</span></div></div></div><span class="visual-label">CONCEPT ILLUSTRATION</span></div>
-            <div class="project-info"><div class="project-meta"><span>AI · PYTHON · API DEVELOPMENT</span><span>03</span></div><h3>Local AI Chatbot</h3><p>I wanted to try running AI on my own computer, so I built an early chatbot with Python, FastAPI, and Ollama.</p><div class="project-bottom"><div class="tag-row"><span>Python</span><span>FastAPI</span><span>Ollama</span></div><a class="circle-link" href="projects/ollama-chatbot.html" aria-label="Read AI Chatbot case study">↗</a></div></div>
+            <div class="project-visual plain-visual visual-chatbot"><div class="plain-visual-content"><span class="plain-visual-label">PERSONAL TECH PROJECT</span><span class="plain-visual-title">Local AI<br>Chatbot</span><span class="plain-visual-subtitle">Python / FastAPI / Ollama</span></div></div>
+            <div class="project-info">
+              <div class="project-meta"><span>PERSONAL PROJECT · PYTHON</span><span>03</span></div>
+              <h3>Local AI Chatbot</h3>
+              <p>I tried running an AI chatbot on my own computer using Ollama, Python, and FastAPI. I'm working on getting the original project running again.</p>
+              <div class="tag-row"><span>Python</span><span>FastAPI</span><span>Ollama</span></div>
+              <div class="project-actions"><a class="visit-site-button" href="projects/ollama-chatbot.html">Read about the project</a></div>
+            </div>
           </article>
           <article class="project-card" data-category="leadership">
-            <div class="project-visual visual-leadership"><div class="leadership-circle"><span>LEAD WITH</span><strong>people<br>in mind.</strong><span>GROW TOGETHER ↗</span></div><div class="leadership-note note-left">Listen first <span>✳</span></div><div class="leadership-note note-right">Coach & improve <span>↗</span></div><span class="visual-label">EDITORIAL ILLUSTRATION</span></div>
-            <div class="project-info"><div class="project-meta"><span>TEAM LEADERSHIP · PROCESS IMPROVEMENT</span><span>04</span></div><h3>Leading a Tagalog Teaching Team</h3><p>Outside class, I supervise 13 Tagalog teachers at the MTC. Coaching and learning from them is a big part of my week.</p><div class="project-bottom"><div class="tag-row"><span>Leadership</span><span>Coaching</span><span>Operations</span></div><a class="circle-link" href="projects/mtc-leadership.html" aria-label="Read leadership case study">↗</a></div></div>
+            <div class="project-visual plain-visual visual-leadership"><div class="plain-visual-content"><span class="plain-visual-label">WORK EXPERIENCE</span><span class="plain-visual-title">Leading a<br>Teaching Team</span><span class="plain-visual-subtitle">Coaching / Leadership / Teaching</span></div></div>
+            <div class="project-info">
+              <div class="project-meta"><span>WORK EXPERIENCE · LEADERSHIP</span><span>04</span></div>
+              <h3>Leading a Tagalog Teaching Team</h3>
+              <p>I supervise 13 Tagalog teachers at the MTC. Coaching, training, and helping teachers improve have taught me a lot.</p>
+              <div class="tag-row"><span>Coaching</span><span>Communication</span><span>Leadership</span></div>
+              <div class="project-actions"><a class="visit-site-button" href="projects/mtc-leadership.html">Read about the project</a></div>
+            </div>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="about-section" id="about" aria-labelledby="about-title"><div class="container about-grid"><div class="about-label"><p class="eyebrow eyebrow-light">02 / ABOUT ME</p><div class="about-emblem" aria-hidden="true"><span>AP</span><span>✳</span></div></div><div class="about-copy"><h2 id="about-title">A little more <em>about me.</em></h2><p>I'm an Information Systems student at BYU. I enjoy building websites and working with technology, but what I enjoy most is getting to know people and figuring things out together.</p><p>I also supervise Tagalog teachers at the Missionary Training Center. It's taught me a lot about listening, giving feedback, and helping a team improve. I try to bring that same mindset to class projects and anything else I build.</p><a class="text-link light-link" href="resume.html">Take a look at my resume <span aria-hidden="true">↗</span></a></div></div></section>
+    <section class="about-section" id="about" aria-labelledby="about-title"><div class="container about-grid"><div class="about-label"><p class="eyebrow eyebrow-light">02 / ABOUT ME</p><div class="about-emblem" aria-hidden="true"><span>AP</span></div></div><div class="about-copy"><h2 id="about-title">A little more <em>about me.</em></h2><p>I'm an Information Systems student at BYU. I enjoy building websites and working with technology, but what I enjoy most is getting to know people and figuring things out together.</p><p>I also supervise Tagalog teachers at the Missionary Training Center. It's taught me a lot about listening, giving feedback, and helping a team improve. I try to bring that same mindset to class projects and anything else I build.</p><a class="text-link light-link" href="resume.html">View my resume</a></div></div></section>
 
     <section class="section skills-section" id="skills" aria-labelledby="skills-title"><div class="container"><div class="section-intro"><div><p class="eyebrow dark-eyebrow">03 / SKILLS</p><h2 id="skills-title">What I'm learning <em>and using.</em></h2></div><p>These are some of the tools I've used in class, at work, and on personal projects.</p></div><div class="skills-grid"><div class="skill-group"><div class="skill-no">01</div><h3>Build & develop</h3><p>Python · JavaScript · HTML/CSS · SQL · C# · Java</p></div><div class="skill-group"><div class="skill-no">02</div><h3>Platforms & tools</h3><p>AWS · PostgreSQL · Git/GitHub · FastAPI · Ollama</p></div><div class="skill-group"><div class="skill-no">03</div><h3>Think & design</h3><p>User research · Wireframing · Prototyping · AI-assisted development</p></div><div class="skill-group"><div class="skill-no">04</div><h3>Lead & collaborate</h3><p>Team coaching · Communication · Stakeholder needs · Process improvement</p></div></div></div></section>
 
-    <section class="contact-section" id="contact" aria-labelledby="contact-title"><div class="container contact-box"><div><p class="eyebrow eyebrow-light">04 / CONTACT</p><h2 id="contact-title">I'd love to <em>hear from you.</em></h2><p>I'm looking for opportunities to learn, build, and work with great people. Feel free to reach out about a project or an opportunity.</p></div><div class="contact-actions" id="contact-actions"><p class="contact-setup">LinkedIn, resume, email, and GitHub links are below.</p></div><span class="contact-decoration" aria-hidden="true">✳</span></div></section>
+    <section class="contact-section" id="contact" aria-labelledby="contact-title"><div class="container contact-box"><div><p class="eyebrow eyebrow-light">04 / CONTACT</p><h2 id="contact-title">I'd love to <em>hear from you.</em></h2><p>I'm looking for opportunities to learn, build, and work with great people. Feel free to reach out about a project or an opportunity.</p></div><div class="contact-actions" id="contact-actions"><p class="contact-setup">LinkedIn, resume, email, and GitHub links are below.</p></div></div></section>
   </main>
   <footer class="site-footer"><div class="container footer-inner"><a href="#top" class="footer-brand">AP<span>.</span></a><span>Thanks for stopping by.</span><span>© <span id="year">2026</span> Austin Pence</span></div></footer>
 </body>
