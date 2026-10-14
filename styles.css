@@ -22,3 +22,38 @@
 .hero-buttons{gap:20px}
 @media(max-width:760px){.case-layout{grid-template-columns:1fr;gap:20px}.detail-hero .container{padding-top:55px;padding-bottom:50px}.detail-nav{gap:13px;flex-wrap:wrap;justify-content:flex-end}.detail-nav a{font-size:12px}.case-aside{padding:20px}}
 @media(max-width:450px){.contact-actions{gap:10px}.contact-actions .button{font-size:13px;padding:10px 15px}.project-bottom{gap:12px}.detail-nav a{font-size:11px}}
+
+
+/* Real website previews, clearer project links, and simpler graphics */
+.hero-simple{background:linear-gradient(145deg,#2d6052 0%,#183e35 100%);border-color:#557669;min-height:400px;padding:22px}
+.hero-simple-inner{border:1px solid #ffffff30;border-radius:16px;min-height:342px;width:100%;padding:35px;display:flex;flex-direction:column;justify-content:space-between}
+.hero-simple-eyebrow{letter-spacing:.16em;color:#e9e7d7;font-size:12px;font-weight:700}
+.hero-simple-headline{color:#fff;font-size:clamp(25px,2.5vw,38px);line-height:1.3;letter-spacing:-.035em;margin:20px 0}
+.hero-simple-headline em{color:#d0c2ab;font-family:Georgia,serif;font-weight:normal}
+.hero-simple-bottom{font-size:10px;letter-spacing:.16em;color:#d7e4dc;margin:0}
+.screenshot-visual{position:relative;display:block;height:270px;padding:12px 12px 0;background:#e7ebe5;overflow:hidden;border-bottom:1px solid #d5ded6;text-decoration:none}
+.screenshot-visual.visual-launchpad{background:#e8e3da}
+.screenshot-visual .site-screenshot{display:block;position:relative;z-index:1;width:100%;height:100%;object-fit:cover;object-position:top center;border:1px solid #c5cdc6;border-bottom:0;border-radius:11px 11px 0 0;background:#fff;box-shadow:0 11px 20px #173f361a;transition:transform .25s ease}
+.screenshot-visual:hover .site-screenshot{transform:translateY(-5px)}
+.screenshot-fallback{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;text-align:center;font-weight:700;font-size:17px;color:#496457}
+.site-screenshot.is-unavailable{display:none}
+.screenshot-label{position:absolute;z-index:2;right:20px;bottom:12px;color:#fff;background:#173f36;padding:6px 12px;border-radius:999px;font-size:10px;font-weight:700;letter-spacing:.07em;box-shadow:0 3px 12px #0002}
+.plain-visual{height:270px;padding:30px;display:flex;align-items:center;justify-content:center}
+.plain-visual-content{border:1px solid #ffffffa0;border-radius:13px;width:100%;height:100%;padding:28px 30px;display:flex;flex-direction:column;justify-content:space-between;color:#183f36}
+.plain-visual-label{font-size:11px;font-weight:700;letter-spacing:.15em}
+.plain-visual-title{font-size:clamp(27px,3vw,38px);line-height:1.12;letter-spacing:-.035em;font-weight:700}
+.plain-visual-subtitle{font-size:12px;letter-spacing:.03em;color:#416457}
+.project-info{display:flex;flex-direction:column;min-height:260px;padding:25px}
+.project-info .tag-row{margin:9px 0 20px}
+.project-info h3{margin:13px 0 9px}
+.project-info p{margin:0;line-height:1.55}
+.project-actions{display:flex;gap:14px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-top:auto;padding-top:4px}
+.visit-site-button{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:11px 19px;border-radius:10px;background:#173f36;color:white;text-align:center;text-decoration:none;font-weight:700;font-size:13px;line-height:1.2;transition:background .2s ease}
+.visit-site-button:hover{background:#285d4b;opacity:1}
+.project-details-link{font-weight:650;font-size:13px;text-decoration:underline;text-underline-offset:4px;color:#254a3d}
+.project-actions a:focus-visible,.screenshot-visual:focus-visible{outline:3px solid #8f6849;outline-offset:3px}
+.about-emblem{font-family:Georgia,serif;font-size:74px;font-weight:700;letter-spacing:-.08em}
+.hero-marquee .marquee-text span{opacity:.6}
+@media(max-width:760px){.hero-simple{min-height:280px;padding:13px}.hero-simple-inner{min-height:250px;padding:24px}.hero-simple-headline{font-size:29px}.screenshot-visual,.plain-visual{height:225px}.plain-visual-content{padding:20px}.plain-visual-title{font-size:27px}.project-info{min-height:unset}.project-actions{gap:15px}}
+@media(max-width:460px){.project-actions{align-items:stretch;flex-direction:column}.visit-site-button{width:100%}.project-details-link{text-align:center;padding:5px}.screenshot-label{right:16px;bottom:8px}}
+@media(prefers-reduced-motion:reduce){.screenshot-visual .site-screenshot{transition:none}.screenshot-visual:hover .site-screenshot{transform:none}}
