@@ -1,0 +1,1 @@
+window.PORTFOLIO_CONTACT={email:"",linkedin:"",github:"https://github.com/austin-pence",resume:""};
