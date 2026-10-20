@@ -57,3 +57,9 @@
 @media(max-width:760px){.hero-simple{min-height:280px;padding:13px}.hero-simple-inner{min-height:250px;padding:24px}.hero-simple-headline{font-size:29px}.screenshot-visual,.plain-visual{height:225px}.plain-visual-content{padding:20px}.plain-visual-title{font-size:27px}.project-info{min-height:unset}.project-actions{gap:15px}}
 @media(max-width:460px){.project-actions{align-items:stretch;flex-direction:column}.visit-site-button{width:100%}.project-details-link{text-align:center;padding:5px}.screenshot-label{right:16px;bottom:8px}}
 @media(prefers-reduced-motion:reduce){.screenshot-visual .site-screenshot{transition:none}.screenshot-visual:hover .site-screenshot{transform:none}}
+
+/* The Last Hour portfolio preview */
+.visual-last-hour{background:#111512}
+.case-preview{margin:0 0 36px}
+.case-screenshot{display:block;width:100%;height:auto;border-radius:14px;border:1px solid #c9d2c9}
+.case-preview figcaption{font-size:13px;color:#5a6b63;margin-top:10px}
